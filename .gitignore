@@ -1,0 +1,7 @@
+# Project exclude paths
+/demo1/target/
+/demo2-client-github/target/
+/demo3-client-satoken/target/
+/demo3-server-satoken/target/
+/demo4-client-spring/target/
+/demo4-server-spring/target/

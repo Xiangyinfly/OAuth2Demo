@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo2-client-github" />
+        <module name="demo4-client-spring" />
+        <module name="demo1" />
+        <module name="demo3-server-satoken" />
+        <module name="demo3-client-satoken" />
+        <module name="demo4-server-spring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="17" />
+      <module name="service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-parameters" />
+      <module name="demo1" options="-parameters" />
+      <module name="demo2-client-github" options="-parameters" />
+      <module name="demo3-client-satoken" options="-parameters" />
+      <module name="demo3-server-satoken" options="-parameters" />
+      <module name="demo4-client-spring" options="-parameters" />
+      <module name="demo4-server-spring" options="-parameters" />
+      <module name="oauth" options="" />
+      <module name="service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          myoauth2:
+            provider: spring
+            client-id: anser-test
+            client-secret: xiangyin298
+            scope:
+              - openid
+            authorization-grant-type: authorization_code
+            redirect-uri: http://127.0.0.1:8080/login/oauth2/code/myoauth2
+        provider:
+          spring:
+            issuer-uri: http://localhost:9090
